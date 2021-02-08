@@ -1,0 +1,22 @@
+.calculator {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.calculator__output {
+  grid-column: 1 / 4;
+  background-color: burlywood;
+}
+
+.calculator__number {
+  background-color: aquamarine;
+}
+
+.calculator__operator {
+  background-color: rgb(145, 104, 184);
+}
+
+.calculator__calculate {
+  grid-column: 1 / 4;
+  background-color: coral;
+}
